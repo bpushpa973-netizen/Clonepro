@@ -13,12 +13,25 @@ from PritiMusic.utils.decorators.language import language
 from PritiMusic.utils.inline import supp_markup
 
 # Image validation utility function
-def is_valid_image(url: str) -> bool:
-    if not url or str(url).strip().lower() == "none":
+def is_valid_image(url) -> bool:
+    if not url:
         return False
-    # Agar local file path hai toh check karein
+
+    # Agar list aaye toh first item lelo
+    if isinstance(url, list):
+        if not url:
+            return False
+        url = url[0]
+
+    url = str(url).strip()
+
+    if url.lower() == "none":
+        return False
+
+    # Local file path check
     if not url.startswith(("http://", "https://")):
         return os.path.exists(url)
+
     return True
 
 @app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
