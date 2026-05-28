@@ -77,18 +77,18 @@ autoclean = []
 confirmer = {}
 
 # --- IMAGE URLS (Split safely into lists) ---
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/n22tbs.jpg").split()
-HELP_IMG_URL = getenv("HELP_IMG_URL", "https://files.catbox.moe/zbl2i7.jpg").split()
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/n22tbs.jpg").split()
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/cnjucl.webp").split()
+HELP_IMG_URL = getenv("HELP_IMG_URL", "https://files.catbox.moe/cnjucl.webp").split()
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/cnjucl.webp").split()
 
-PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://files.catbox.moe/n22tbs.jpg").split()
+PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://files.catbox.moe/cnjucl.webp").split()
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/zgy7zs.jpg").split()
 
 TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "https://i.ibb.co/gL3ykkyh/play-music.jpg").split()
 TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL", "https://i.ibb.co/gL3ykkyh/play-music.jpg").split()
 STREAM_IMG_URL = getenv("STREAM_IMG_URL", "https://i.ibb.co/0VKCS20y/stream.jpg").split()
 SOUNCLOUD_IMG_URL = getenv("SOUNCLOUD_IMG_URL", "https://i.ibb.co/S4sPf3q8/soundcloud.jpg").split()
-YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL", "https://files.catbox.moe/n22tbs.jpg").split()
+YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL", "https://files.catbox.moe/cnjucl.webp").split()
 
 SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL", "https://i.ibb.co/XZfMS8Db/spotify.jpg").split()
 SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL", "https://i.ibb.co/XZfMS8Db/spotify.jpg").split()
