@@ -23,7 +23,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 # --- YOUTUBE & DOWNLOAD LIMITS ---
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com')
-YT_API_KEY = getenv("YT_API_KEY" , 'xbit_B4TNnBAoe6uoSM7NLFz-dk6X7GibJ6Bh')
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_ym59-ALejEBQZezl97zGvLhLrk8rJ4hX')
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", "0"))
